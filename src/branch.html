@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <link rel="shortcut icon" type="image/png" href="favicon.png" /> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Branch</title>
+</head>
+
+<body>
+    @include('./templates/components/header.html')
+    @include('./templates/components/slider.html')
+
+    <section class="branch-contact-line">
+      <div class="container"></div>
+    </section>
+    <section class="branch_info">
+        @include('./templates/parts/contact_form.html')
+    </section>
+    <section class="our-team"></section>
+    @include('./templates/parts/testimonials.html')
+    @include('./templates/parts/cta.html')
+
+    @include('./templates/components/footer.html')
+    @include('./templates/components/arrow.html')
+    <link rel="stylesheet" href="css/asset-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

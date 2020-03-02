@@ -1,0 +1,25 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "css/generated/",
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "css/generated/_min/"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**",
+        "_templates/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "browserSync.config": {
+        "proxy": "localhost:80"
+    },
+    "liveServer.settings.wait": 1,
+    "editor.fontSize": 16
+}
