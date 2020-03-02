@@ -1,0 +1,4 @@
+/node_modules/
+/_temporary/
+progress.txt
+package-lock.json
