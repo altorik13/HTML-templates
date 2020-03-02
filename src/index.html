@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <link rel="shortcut icon" type="image/png" href="favicon.png" /> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Corporate</title>
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     -->
+
+</head>
+
+<body>
+    @include('./templates/components/header.html')
+    @include('./templates/components/slider.html')
+
+    <section class="search-line">
+      <div class="container">
+        <div class="search-line__text">IF YOU WANT TO FIND LOAN OFFICER OR LOAN</div>
+        <form action="" id="searchline">
+          <input type="text">
+          <select>
+            <option>Item 1</option>
+            <option>Item 2</option>
+          </select>
+          <input type="submit"  value="search now" class="btn-standart btn-standart_color_blue">
+        </form>
+      </div>
+    </section>
+
+    @include('./templates/parts/testimonials.html')
+
+    <section class="calculator-preview">
+      <div class="container">
+        <div class="calculator-preview__text">
+          <h1>Mortgage Calculator</h1>
+          <a href="/mortgage/calculator">Crunch the Numbers With Our Helpful Mortgage Calculators</a>
+        </div>
+        <div class="calculator-preview__items">
+          <div class="item">
+            <img src="img/calc-icon-1.png" alt="">
+            <h5>Affordability Calculator</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ullam, ut ea expedita facere ad non officia odit maiores et!</p>
+            <a href="/" class="btn-standart">Read More</a>
+          </div>
+          <div class="item">
+            <img src="img/calc-icon-2.png" alt="">
+            <h5>Affordability Calculator</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ullam, ut ea expedita facere ad non officia odit maiores et!</p>
+            <a href="/" class="btn-standart">Read More</a>
+          </div>
+          <div class="item">
+            <img src="img/calc-icon-3.png" alt="">
+            <h5>Affordability Calculator</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae ullam, ut ea expedita facere ad non officia odit maiores et!</p>
+            <a href="/" class="btn-standart">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="loan-options">
+      <div class="bg-image">
+        <img src="img/Clip.png" alt="">
+      </div>
+      <div class="container">
+
+        <h1>Loan Options</h1>
+        <div class="loan-options__slider">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin hendrerit pretium nulla, nec facilisis nulla fermentum ac. Morbi ac faucibus lectus, eu porttitor mauris. Aliquam mattis augue nibh, ac malesuada nisi pulvinar ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin hendrerit pretium nulla, nec facilisis nulla fermentum ac. Morbi ac faucibus lectus, eu porttitor mauris.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin hendrerit pretium nulla, nec facilisis nulla fermentum ac. Morbi ac faucibus lectus, eu porttitor mauris. Aliquam mattis augue nibh, ac malesuada nisi pulvinar ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin hendrerit pretium nulla, nec facilisis nulla fermentum ac. Morbi ac faucibus lectus, eu porttitor mauris. 
+        </div>
+        <hr>
+        <div class="btn-group">
+          <div class="btn-standart btn-standart_size_big">PURCHASE A HOME</div>
+          <div class="btn-standart btn-standart_color_empty btn-standart_size_big">refinance</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      @include('./templates/parts/contact_form.html')
+    </div>
+    @include('./templates/parts/cta.html')
+
+    @include('./templates/components/footer.html')
+    @include('./templates/components/arrow.html')
+
+    <link rel="stylesheet" href="css/asset-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

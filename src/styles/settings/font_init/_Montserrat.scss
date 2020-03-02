@@ -1,0 +1,19 @@
+$thisFont: "montserrat/";
+@font-face {
+  font-family: "Montserrat";
+  src: url($fontPath + $thisFont + "Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url($fontPath + $thisFont + "Montserrat-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url($fontPath + $thisFont + "Montserrat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}

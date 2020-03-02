@@ -1,0 +1,148 @@
+.main-header {
+  font-weight: 600;
+  background: $blue;
+  color: $light;
+  padding: 20px 0;
+
+  a {
+    color: $light;
+
+    &:hover {
+      opacity: .8;
+      text-decoration: none;
+    }
+  }
+
+  .container {
+    position: relative;
+    padding-left: 250px;
+
+    .logo_header {
+      width: 230px;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+    }
+  }
+
+  .login-area {
+
+    text-align: right;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid $light;
+    @media(max-width: 1100px) {
+      width: calc(100% - 30px);
+      margin-left: 15px;
+      padding-top: 25px;
+      padding-bottom: 20px;
+    }
+
+    a {
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+  }
+
+  .navigation-list {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media(max-width: 1100px) {
+      flex-direction: column;
+    }
+
+    ul {
+      flex-grow: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      @media(max-width: 1100px) {
+        flex-direction: column;
+      }
+
+      li {
+        margin-left: 5px;
+        @media(max-width: 1100px) {
+          margin: 8px 0;
+        }
+
+        a {
+          padding: 2px 9px;
+          text-transform: uppercase;
+          letter-spacing: .1em;
+          @media(max-width: 1100px) {
+            padding-left: 0;
+          }
+        }
+
+        ul {
+          display: none;
+        }
+      }
+    }
+
+    .btn-standart {
+      margin: auto 0 auto 20px;
+      font-size: 15px;
+      @media(max-width: 1100px) {
+        margin: 15px 25px;
+      }
+    }
+  }
+
+  .hide-area {
+    @media(max-width: 1100px) {
+      position: absolute;
+      z-index: 100;
+      right: 15px;
+      right: 0;
+      top: 45px;
+      background: rgba($blue,.85);
+
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  
+  &.active .hide-area {
+    @media(max-width: 1100px) {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+
+  .nav-bars {
+    display: none;
+    float: right;
+    padding: 5px 0 5px 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    span {
+      display: block;
+      background: $light;
+      height: 5px;
+      width: 45px;
+      margin-bottom: 6px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    @media(max-width: 1100px) {
+      display: inline-block;
+    }
+  }
+}
+
+li,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,42 @@
+.btn-standart {
+
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  width: unset;
+  outline: none;
+  border: 2px solid;
+  font-weight: medium;
+  font-family: 'Aileron', sans-serif;
+  font-weight: 900;
+  letter-spacing: .1em;
+  font-size: 19px;
+
+  background: $green;
+  border-color: $green;
+  color: $light;
+
+  &:hover {
+    text-decoration: none;
+    color: $light;
+    cursor: pointer;
+  }
+
+  &_color_blue {
+    background: $blue;
+    border-color: $blue;
+    font-weight: 800;
+  }
+
+  &_color_empty {
+    background: transparent;
+    border-color: $green;
+  }
+
+  &_size_big {
+    padding: 8px 25px;
+    font-size: 21px;
+  }
+}

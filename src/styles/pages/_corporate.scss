@@ -1,0 +1,143 @@
+.search-line {
+  background: $green;
+  color: $light;
+  padding: 20px 0 30px;
+
+  &__text {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  form {
+    input[type=text] {
+      flex-grow: 1;
+      line-height: 1.3;
+      color: $dark_text;
+
+      display: block;
+      border: 0 solid $dark;
+      resize: none;
+      padding: 6px 8px;
+      min-width: 300px;
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    select {
+      color: $dark_text;
+      margin-right: 20px;
+      margin-left: 20px;
+      min-width: 200px;
+      line-height: 1.3;
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      display: block;
+      border: 0 solid $dark;
+      resize: none;
+      padding: 6px 8px;
+      font-family: "Aileron";
+
+      option {
+        font-family: "Aileron";
+      }
+    }
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    > * {
+      margin-top: 8px;
+    }
+
+    .btn-standart {
+      @media (max-width: 767px) {
+        margin: 8px auto 0;
+      }
+    }
+  }
+}
+
+.calculator-preview {
+  background: $light_dd;
+  color: $dark_text;
+  padding: 50px 0;
+
+}
+
+.calculator-preview__text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 600;
+
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
+.calculator-preview__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  > * {
+
+    margin: 0 35px 50px;
+    width: 25%;
+    min-width: 280px;
+  }
+
+  .item {
+    text-align: center;
+
+    img {
+      max-height: 115px;
+    }
+
+    h4,
+    h5,
+    h6 {
+      margin: 10px 0;
+      text-transform: capitalize;
+      color: $blue_d;
+      line-height: 1.2;
+      font-size: 24px;
+    }
+
+    .calculator-preview__body {}
+
+    .btn-standart {
+      margin-top: 15px;
+    }
+  }
+}
+
+.loan-options {
+  // background: $blue_d;
+  color: $light;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+  z-index: 1;
+
+  .bg-image {
+    @extend %bg-image;
+    background: #000;
+
+    img {
+      opacity: .5;
+    }
+  }
+
+  hr {
+    border-top: 2px solid $light;
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <link rel="shortcut icon" type="image/png" href="favicon.png" /> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loan Officer</title>
+  </head>
+
+  <body>
+    @include('./templates/components/header.html')
+    <section class="lo-info">
+      <div class="bg-image">
+        <img src="img/lo_bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="col">
+          
+          <div class="lo-img">
+            <div class="square-box">
+              <div class="square-content">
+                <img src="img/loan-officer.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          @include('./templates/parts/socials.html')
+        </div>
+        <div class="col">
+          <div class="lo-description">
+            <h2>get in touch with</h2>
+            <h1>our loan officer</h1>
+            <h3 class="lo-name">
+              LOAN OFICER NAME
+            </h3>
+
+            <h4 class="lo-title">
+              Loan Oficer Job Title
+            </h4>
+            
+            <span>
+              <em class="fa fa-map-marker" aria-hidden="true"></em>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </span>
+            
+            <span>
+              <em class="fa fa-phone" aria-hidden="true"></em>
+              123-123-1234 ( office )
+            </span>
+            
+            <span>
+              <em class="fa fa-tablet" aria-hidden="true"></em>
+              123-123-1234 ( Cell )
+            </span>
+            
+            <span>
+              <em class="fa fa-fax" aria-hidden="true"></em>
+              123-123-1234
+            </span>
+            
+            <span>
+              <em class="fa fa-envelope" aria-hidden="true"></em>
+              Send a Message
+            </span>
+              
+            <a href="/" class="btn-standart">Go to Website</a>  
+          </div>
+
+        </div>
+      </div>
+    </section>
+    @include('./templates/parts/testimonials.html')
+    <section class="about-lo">
+      <div class="container">
+        <h1>About Loan Officer</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+          provident voluptatem natus quidem, quis dicta tempora distinctio
+          itaque doloribus. Magnam ratione impedit eaque tempore corrupti, iure
+          itaque iusto unde laboriosam rem libero eveniet mollitia ipsa odio,
+          earum sequi id ipsum. Aspernatur soluta adipisci magnam tenetur sequi
+          ipsam, quo culpa quam aliquam? Veniam quasi ullam ratione quis amet
+          corrupti. Dolores consequatur perspiciatis, repellat assumenda
+          asperiores libero inventore porro quibusdam vero beatae vel, officiis,
+          quasi neque similique eveniet quia magni voluptatibus enim obcaecati
+          illo tempore temporibus qui voluptatem sapiente.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia
+          alias modi illum placeat sapiente non, numquam dicta rerum excepturi
+          doloribus doloremque fuga nesciunt similique quidem fugit voluptatum,
+          ut voluptate animi sequi, quae architecto odio! Delectus enim nesciunt
+          voluptatem ratione corporis vitae aliquid, neque id nemo expedita
+          architecto molestias culpa perferendis nam earum! Earum corrupti dolor
+          dolore voluptas porro esse nulla consequatur, iste eveniet quod nihil,
+          reiciendis consectetur.
+        </p>
+        <a href="/" class="btn-standart">Read More</a>
+      </div>
+    </section>
+    <div class="container">
+      @include('./templates/parts/contact_form.html')
+    </div>
+    @include('./templates/components/footer.html')
+    @include('./templates/components/arrow.html')
+    <link rel="stylesheet" href="css/asset-styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+@import 'settings/variables';
+$imgPath: './../img/';
+$fontPath: './../fonts/';
+@import 'settings/font_init/Aileron';
+@import 'settings/font_init/Montserrat';
+//----
+@import 'settings/re_settings';
+@import 'settings/fonts';
+
+// INTERFACE ELEMENTS used throughout the project
+@import 'elements/button';
+@import 'elements/arr_up';
+@import 'elements/socials';
+
+//BLOCKS - sections, unified for all pages
+@import 'pages/index';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/slider';
+@import 'components/testimonials';
+@import 'components/contact_form';
+
+//pages
+@import 'pages/corporate';
+@import 'pages/branch';
+@import 'pages/lo';
+@import 'pages/inner';
+@media (min-width: 1200px) {}
+@media (min-width: 768px) and (max-width: 979px) {}
+@media (max-width: 979px) {}
+@media (max-width: 767px) {}
+@media (max-width: 480px) {}

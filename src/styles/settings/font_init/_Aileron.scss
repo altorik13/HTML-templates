@@ -1,0 +1,37 @@
+$thisFont: "aileron/";
+@font-face {
+  font-family: "Aileron";
+  src: url($fontPath + $thisFont + "Aileron-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url($fontPath + $thisFont + "Aileron-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url($fontPath + $thisFont + "Aileron-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url($fontPath + $thisFont + "Aileron-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url($fontPath + $thisFont + "Aileron-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Aileron";
+  src: url($fontPath + $thisFont + "Aileron-SemiBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 600;
+}

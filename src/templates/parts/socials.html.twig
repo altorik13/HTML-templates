@@ -1,0 +1,44 @@
+<ul class="socials">
+    <li>
+        {% if site.settings.inheritedLinkedinUrl %}
+        <a href="{{ site.settings.inheritedLinkedinUrl }}" class="linkedin" target="_blank">
+                <em class="fa fa-linkedin" aria-hidden="true"></em>
+            </a>
+            {% endif %}
+        </li>    
+    <li>
+        {% if site.settings.inheritedFacebookUrl %}
+            <a href="{{ site.settings.inheritedFacebookUrl }}" class="facebook" target="_blank">
+                <em class="fa fa-facebook" aria-hidden="true"></em>
+            </a>
+        {% endif %}
+    </li>
+    <li>
+        {% if site.settings.inheritedTwitterUrl %}
+        <a href="{{ site.settings.inheritedTwitterUrl }}" class="twitter" target="_blank">
+                <em class="fa fa-twitter" aria-hidden="true"></em>
+            </a>
+        {% endif %}
+    </li>
+    <li>
+        {% if site.settings.instagramUrl %}
+        <a href="{{ site.settings.instagramUrl }}" class="instagram" target="_blank">
+            <em class="fa fa-instagram" aria-hidden="true"></em>
+        </a>
+        {% endif %}
+    </li>
+    <li>
+        {% if site.settings.inheritedYoutubeUrl %}
+            <a href="{{ site.settings.inheritedYoutubeUrl }}" class="youtube" target="_blank">
+                <em class="fa fa-youtube" aria-hidden="true"></em>
+            </a>
+        {% endif %}
+    </li>
+    <li>
+        {% if site.settings.inheritedPinterestUrl %}
+            <a href="{{ site.settings.inheritedPinterestUrl }}" class="pinterest" target="_blank">
+                <em class="fa fa-pinterest-p" aria-hidden="true"></em>
+            </a>
+        {% endif %}
+    </li>
+</ul>
